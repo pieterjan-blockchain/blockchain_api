@@ -1,0 +1,10 @@
+gulpfile.js
+jest.config*.js
+migrations/
+coverage/
+.tmp/
+scripts/
+stacks-blockchain/
+src/schemas/*
+docs/
+client/

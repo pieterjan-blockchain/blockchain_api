@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "strict": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "paths": {
+      "*": ["src/@types/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["lib", "src/@types/*", "node_modules"]
+}

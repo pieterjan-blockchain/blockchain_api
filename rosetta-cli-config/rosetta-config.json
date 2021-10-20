@@ -1,0 +1,30 @@
+{
+  "network": {
+    "blockchain": "stacks",
+    "network": "testnet"
+  },
+  "online_url": "http://localhost:3999/rosetta/v1",
+  "data_directory": "",
+  "http_timeout": 10,
+  "max_sync_concurrency": 8,
+  "tip_delay": 300,
+  "data": {
+    "active_reconciliation_concurrency": 16,
+    "inactive_reconciliation_concurrency": 4,
+    "inactive_reconciliation_frequency": 250,
+    "log_blocks": true,
+    "log_transactions": true,
+    "log_balance_changes": true,
+    "log_reconciliations": false,
+    "ignore_reconciliation_error": false,
+    "exempt_accounts": "rosetta-cli-config/exempt_accounts.json",
+    "bootstrap_balances": "bootstrap_balances.json",
+    "interesting_accounts": "",
+    "reconciliation_disabled": true,
+    "inactive_discrepency_search_disabled": false,
+    "balance_tracking_disabled": false,
+    "end_conditions": {
+      "tip": true
+    }
+  }
+}
